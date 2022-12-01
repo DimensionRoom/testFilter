@@ -1,0 +1,39 @@
+:root {
+  --blueText: #1677ff;
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100vh;
+}
+.searchFilter{
+  margin-top: 5px;
+}
+.genderFilterBtn {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  margin: 5px 5px;
+}
+.countryFilterBtn {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+  margin: 5px 5px;
+}
+.clearBtn {
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+.dataCardBox{
+  width: 100%;
+  padding: 20px 50px;
+}
+.cardName{
+  color: #7e7e7e;
+}

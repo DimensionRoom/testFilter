@@ -1,0 +1,29 @@
+@import 'antd/dist/antd.css';
+
+:root {
+  --pixel-size: 5;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'Modern Style'
+}
+body {
+  margin: 0;
+  background-color: #fff;
+}
+@font-face {
+  font-family:'Modern Style';
+  src: local('Modern Style'), url(../../assets/font/Exo2-Light.otf) format('opentype');
+}
+.textCenter{
+  text-align: center;
+}
+.versionNumber{
+  position: fixed;
+  color: #fff;
+  bottom: 0;
+  font-size: 15px;
+  width: 100%;
+  text-align: right;
+  padding-right: 5px;
+}
